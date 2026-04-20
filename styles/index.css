@@ -1,0 +1,70 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+
+.content{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 0 40px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul{
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover{
+    color: orange;
+}
+
+
+.primeira-section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+
+}
+.conteudo-principal{
+    color: rgb(131, 100, 100);
+    padding: 40px;
+    
+}
+
+.conteudo-principal h1{
+    font-size: 48px;
+}
+
+.conteudo-principal h2{
+    font-size: 24px;
+    margin: 15px 0;
+}
+
