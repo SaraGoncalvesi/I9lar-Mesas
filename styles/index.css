@@ -20,7 +20,7 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: black;
-    padding: 0 40px;
+    padding: 10px 30px;
     position: fixed;
     top: 0;
     z-index: 1000;
@@ -68,3 +68,14 @@ nav ul li a:hover{
     margin: 15px 0;
 }
 
+.logo {
+    display: flex;          
+    align-items: center;   
+    gap: 10px;              
+    color: white;
+}
+
+.logo img {
+    width: 60px;   
+    height: auto;
+}
