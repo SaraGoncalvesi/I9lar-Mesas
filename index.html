@@ -3,34 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="icon" href="/image/logoBilhar.jpeg" type="image/jpeg">
-    <title>I9lar Mesas de Bilhar</title>   
-    <link rel="stylesheet" href="styles/index.css">
-</head>
-<body>
-    <header class="content">
-        <div class="logo">
-            <img src="./image/logoBilhar.jpeg" alt="Logo">
-            <h3>I9lar Mesas de Bilhar</h3>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html"><i class="bi bi-house"></i> Home</a></li>
-                <li><a href="sobre.html"><i class="bi bi-person"></i> Sobre</a></li>
-                <li><a href="#"><i class="bi bi-9-circle"></i></i> Produtos</a></li>
-                <li><a href="contato.html"><i class="bi bi-telephone"></i> Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-    
-    <section class="primeira-section">
-        <main>
-            <div class="conteudo-principal">
+    <title>I9lar Mesas de Bilhar</title>
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="./image/logoBilhar.jpeg" alt="Logo" width="40" class="me-2">
+                I9lar Mesas de Bilhar
+            </a>
+
+            <div class="d-flex align-items-center">
+
+                <button class="navbar-toggler me-2" type="button"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#menuLateral">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar">
+                    <button class="btn btn-warning" type="submit">OK</button>
+                </form>
+
             </div>
-        </main>
-    </section>
+
+        </div>
+    </nav>
+</header>
+
+<div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="menuLateral">
+
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title">Menu</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+    </div>
+
+    <div class="offcanvas-body">
+
+        <ul class="navbar-nav">
+
+            <li class="nav-item">
+                <a class="nav-link text-white" href="index.html">
+                    <i class="bi bi-house"></i> Home
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link text-white" href="sobre.html">
+                    <i class="bi bi-person"></i> Sobre
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">
+                    <i class="bi bi-9-circle"></i> Produtos
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link text-white" href="contato.html">
+                    <i class="bi bi-telephone"></i> Contato
+                </a>
+            </li>
+
+        </ul>
+
+    </div>
+</div>
 
 </body>
 </html>
