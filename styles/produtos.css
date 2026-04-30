@@ -67,6 +67,12 @@ nav ul li a:hover{
     font-size: 24px;
     margin: 15px 0;
 }
+.logo {
+    display: flex;          
+    align-items: center;   
+    gap: 10px;              
+    color: white;
+}
 
 .logo {
     display: flex;          
@@ -79,18 +85,7 @@ nav ul li a:hover{
     width: 60px;   
     height: auto;
 }
-
-.contain{
-    display: flex;
-}
-
-.box{
-    width: 500px;
+.logo img {
+    width: 60px;   
     height: auto;
-    margin: 10px;
-    text-align: center;
-}
-
-img{
-    text-align: end;
 }

@@ -10,25 +10,58 @@
 </head>
 
 <body>
-    <header>
+    <header class="content">
         <div class="logo">
+            <img src="./image/logoBilhar.jpeg" alt="Logo">
+            <h3>I9lar Mesas de Bilhar</h3>
+
         </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="bi bi-house"></i> Home</a></li>
+                <li><a href="sobre.html"><i class="bi bi-person"></i> Sobre</a></li>
+                <li><a href="#"><i class="bi bi-9-circle"></i></i> Produtos</a></li>
+                <li><a href="contato.html"><i class="bi bi-telephone"></i> Contato</a></li>
+
+            </ul>
+        </nav>
     </header>
 
     <main>
         <div class="emailesenha">
-            <section>
-                <label class="legais">Email:</label>
-                <input required="required" type="text" id="email" placeholder="example@outlook.com">
-                <label class="legais">Senha:</label>
-                <input required="required" type="password" id="senha" placeholder="*****">
+            <h1>Entrar</h1>
+
+            <section class="social">
+                <a href="#" class="#" id="google">
+                    <img src="/image/google.png" class="img">
+                </a>
+                <a href="#" class="#" id="facebook">
+                    <img src="/image/facebook.png" class="img">
+                </a>
+                <a href="#" class="3" id="linkedin">
+                    <img src="/image/linkedin.png" class="img">
+                </a>
             </section>
 
-            <a href="" style="text-decoration: none;">
-                <h4 class="esquecer">Esqueci a senha</h4>
-            </a>
 
-            <input value="Entrar" type="submit" onclick="Funcao(); return false" class="botprosseguir">
+            <section>
+                <div class="input-container">
+                    <input type="text" id="Email" class="input-field" placeholder=" " />
+                    <label for="Email" class="input-label">Email</label>
+                </div>
+
+                <div class="input-container" style="margin-bottom: 0;">
+                    <input type="password" id="Senha" class="input-field" placeholder="" />
+                    <label for="Senha" class="input-label">Senha</label>
+                </div>
+
+                <a href="#" class="forgot">
+                    <p>Esqueci a senha</P>
+                </a>
+            </section>
+
+           
+            <input value="Entrar" type="submit" onclick="Funcao(); return false" class="input-field">
 
             <div class="cadastro">
                 <p>Não tem cadastro?</p>
@@ -38,6 +71,10 @@
             </div>
         </div>
     </main>
+
+    <footer>
+        <p>&copy</p>
+    </footer>
 </body>
 
 </html>
