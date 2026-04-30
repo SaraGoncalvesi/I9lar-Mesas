@@ -89,3 +89,33 @@ nav ul li a:hover{
     width: 60px;   
     height: auto;
 }
+
+.orcamento {
+    padding: 40px;
+    background-color: #111;
+    color: white;
+}
+
+.orcamento form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+}
+
+.orcamento input,
+.orcamento select,
+.orcamento textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.orcamento button {
+    background-color: #f5b041;
+    color: black;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}

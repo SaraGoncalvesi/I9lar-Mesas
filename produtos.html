@@ -31,6 +31,59 @@
 
         </div>
     </nav>
+
+    <!--CARDS DOS PRODUTOS-->
+
+    <section class="orcamento">
+    <h2>Solicite seu Orçamento</h2>
+
+    <form>
+        <!-- Nome -->
+        <label>Nome:</label>
+        <input type="text" name="nome" required>
+
+        <!-- Email -->
+        <label>Email:</label>
+        <input type="email" name="email" required>
+
+        <!-- Telefone -->
+        <label>Telefone:</label>
+        <input type="tel" name="telefone">
+
+        <!-- Tipo de mesa -->
+        <label>Tipo de mesa:</label>
+        <select name="tipo">
+            <option value="">Selecione</option>
+            <option>Sinuca</option>
+            <option>Bilhar</option>
+            <option>Pebolim</option>
+            <option>Ping-Pong</option>
+        </select>
+
+        <!-- Tamanho -->
+        <label>Tamanho da mesa:</label>
+        <input type="radio" name="tamanho" value="7ft"> 7 pés
+        <input type="radio" name="tamanho" value="8ft"> 8 pés
+        <input type="radio" name="tamanho" value="9ft"> 9 pés
+
+        <!-- Extras (perguntar pra Sara os extras) -->
+        <label>Extras:</label>
+        <input type="checkbox" name="extras" value="taco"> Tacos
+        <input type="checkbox" name="extras" value="bolas"> Bolas
+        <input type="checkbox" name="extras" value="luminaria"> Luminária
+
+        <!-- Data -->
+        <label>Data desejada:</label>
+        <input type="date" name="data">
+
+        <!-- Mensagem -->
+        <label>Observações:</label>
+        <textarea name="mensagem"></textarea>
+
+        <!-- Botão -->
+        <button type="submit">Enviar Orçamento</button>
+    </form>
+</section>
 </header>
 
 <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="menuLateral">
@@ -57,7 +110,7 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link text-white" href="#">
+                <a class="nav-link text-white" href="produtos.html">
                     <i class="bi bi-9-circle"></i> Produtos
                 </a>
             </li>
