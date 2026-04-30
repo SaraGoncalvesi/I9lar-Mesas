@@ -153,3 +153,45 @@ nav ul li a:hover{
     cursor: pointer;
     font-weight: bold;
 }
+beneficios {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0b0b0b;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.beneficio {
+    color: white;
+    max-width: 200px;
+}
+
+.beneficio i {
+    font-size: 40px;
+    color: #f5b041; /* amarelo */
+    margin-bottom: 10px;
+}
+
+.beneficio h4 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+}
+
+.beneficio p {
+    font-size: 14px;
+    color: #ccc;
+}
+footer {
+    background-color: black;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    font-size: 16px;
+    margin: 0;
+}
