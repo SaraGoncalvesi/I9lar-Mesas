@@ -127,6 +127,67 @@ li::marker {
     box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 }
 
+        /* faixa */
+
+.faixa {
+    width: 100%;
+    overflow: hidden;
+    background: #f5b041;
+    color:  #000  ;
+    white-space: nowrap;
+}
+
+.faixa p {
+    display: inline-block;
+    padding-left: 100%;
+    animation: rolar 40s linear infinite;
+    font-size: 24px;
+}
+
+@keyframes rolar {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+        /* beneficios */
+
+        .beneficios {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0b0b0b;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.beneficio {
+    color: white;
+    max-width: 200px;
+}
+
+.beneficio i {
+    font-size: 40px;
+    color: #f5b041; /* amarelo */
+    margin-bottom: 10px;
+}
+
+.beneficio h4 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+}
+
+.beneficio p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+
+
         /* rodape */
 
 footer {
@@ -134,7 +195,6 @@ footer {
     width: 100%;
     padding: 20px 0;
     text-align: center;
-    position: fixed;
     bottom: 0;
 }
 
