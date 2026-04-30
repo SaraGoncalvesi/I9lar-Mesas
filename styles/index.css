@@ -158,3 +158,18 @@ nav ul li a:hover{
         transform: translateX(-100%);
     }
 }
+
+footer {
+    background-color: black;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+footer p {
+    color: white;
+    font-size: 16px;
+    margin: 0;
+}
